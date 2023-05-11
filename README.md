@@ -1,5 +1,6 @@
 # Bytebank
 
+ByteBank é uma plataforma de banco digital, desenvolvida em uma única página com as funcionalidades de realizar depósitos e transferências, modificando o saldo do usuário. 
 Este projeto foi desenvolvido para praticar testes de front-end utilizando o Jest e o React Testing Library. Foram realizados os seguintes testes:
 
 - Teste de componente react para verificar se o nome do usuário logado está renderizado utilizando **getByText()**, que busca o texto informado no documento renderizado, e **expect(...).toBeInTheDocument()**, que retorna se o texto está ou não no documento;
@@ -26,7 +27,7 @@ Este projeto foi desenvolvido para praticar testes de front-end utilizando o Jes
 
 * Mockar um comportamento utilizando **just.fn()**. Neste caso foi selecionado um botão utilizando **getByRole('button')** e mockado um evento de clique com **userEvent.click()**, para testar quantas vezes a função mockada foi chamada com **expect().toHaveBeenCalledTimes()**;
 
-Introdução à \*\*TDD (test driven development), que é uma metodologia para desenvolvimento e escrita de códigos que funciona da seguinte maneira:
+Introdução à **TDD (test driven development)**, que é uma metodologia para desenvolvimento e escrita de códigos que funciona da seguinte maneira:
 
 - Escrevemos um teste unitário que inicialmente irá falhar, já que o código testado ainda não foi implementado;
 - Criamos o código que faça o teste passar, ou seja, a implementação da funcionalidade testada. Esse código deve satisfazer imediatamente a asserção que colocamos no nosso teste;
@@ -39,3 +40,25 @@ Boas práticas no desenvolvimento de testes:
 - Realizar testes unitários curtos e com poucas e exceções;
 
 - Corrigir todos os problemas rapidamente para garantir que os testes passem em 100% das vezes que for testado.
+
+### Tecnologias utilizadas
+
+* React com JavaScript;
+* CSS modules;
+
+Para rodar a aplicação será necessário instalar:
+
+* [Visual Studio Code](https://code.visualstudio.com/) ou algum outro editor de código;
+* [Node.js](https://nodejs.org/en);
+* [Git](https://git-scm.com/downloads);
+
+Após baixar instalar os programas acima e baixar o código, abra a pasta da aplicação pelo Visual Studio Code, com ela aberta siga os seguintes passos:
+
+* Pressiona **Ctrl + '** para abrir o terminal;
+* Digite **npm install** para instalar as dependências do projeto;
+* Digite **npm start** para rodar a aplicação e abri-la em seu navegador.
+  
+  
+  ### ScreenShots
+![Captura de tela da página do ByteBank](https://github.com/dhdessoldi/bytebank/assets/110476564/797dcbbd-c02d-4a44-8127-c454cca45e87)
+
